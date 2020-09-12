@@ -101,7 +101,7 @@ void SceneKaplaTower::postSim(float dt)
 		ShaderMaterial mat;
 		mat.init();
 
-		PxReal angle = randRange(0.f, 3.14159*2.f); //Random direction...
+		PxReal angle = randRange(0.f, 3.14159263*2.f); //Random direction...
 
 		PxReal range = randRange(30.f, 40.f);
 
